@@ -4,7 +4,7 @@ import threading
 import os
 
 # Define the directory where your project files are located
-project_directory = r"C:\Project1\Responsive-Ecommerce-Website"
+project_directory = r"C:\Project1\Bluecommerce"
 
 app = Flask(__name__, static_folder=project_directory)
 
