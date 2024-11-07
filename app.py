@@ -26,4 +26,4 @@ if __name__ == '__main__':
     # Open the browser in a separate thread
     threading.Timer(1, open_browser).start()
     # Start the Flask server on localhost
-    app.run(port=5000, debug=True)
+    app.run(port=int(os.environ.get("PORT", 5000)), debug=True)
